@@ -8,7 +8,7 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_values(groceries)roceries.values
+def get_the_values(groceries)
 groceries.values.flatten
 #=> ["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]
   binding.pry
